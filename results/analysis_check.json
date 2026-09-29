@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "bootstrap_replicates": 10000,
+  "seed": 0,
+  "bootstrap": "Percentile intervals; independent group resampling within each domain and eligible codec/metric subset",
+  "equivalence_rows": 72,
+  "rate_rows": 16,
+  "accepted_statuses": [
+    "matched",
+    "matched_scan"
+  ]
+}

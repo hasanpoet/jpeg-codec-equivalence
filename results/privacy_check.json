@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "scope": "All staged public files; PDF text and metadata decoded before scanning; excludes ignored local files and Git metadata",
+  "files_scanned": 109,
+  "findings": [],
+  "local_imports_self_contained": true
+}

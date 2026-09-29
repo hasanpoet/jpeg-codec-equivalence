@@ -1,0 +1,16 @@
+{
+  "sanity_mct.csv": {
+    "rows": 12,
+    "common_columns": 8,
+    "differences": [],
+    "not_replayed_columns": []
+  },
+  "sanity_mct_per_image.csv": {
+    "rows": 60,
+    "common_columns": 42,
+    "differences": [],
+    "not_replayed_columns": [
+      "seconds"
+    ]
+  }
+}

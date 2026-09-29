@@ -1,0 +1,81 @@
+name,domain,q,codec,value,display,unit,manuscript_display,status,source,note
+NaturalSsimJxlMajorityPct,natural,50,jpegxl,53.50701402805611,53.5,percent,53.5,match,ranking.csv,
+SsimT1MinusC1_difference,,,jpeg2000,14.246469752297202,14.2,10^-3 SSIM,14.2,match,ssim_model_evaluation.csv,
+SsimT1MinusC1_lo,,,jpeg2000,13.150585870040894,13.2,10^-3 SSIM,13.2,match,ssim_model_evaluation.csv,
+SsimT1MinusC1_hi,,,jpeg2000,15.407437729239275,15.4,10^-3 SSIM,15.4,match,ssim_model_evaluation.csv,
+SsimT1MinusC1_difference,,,jpegxl,1.9789763475095987,2.0,10^-3 SSIM,2.0,match,ssim_model_evaluation.csv,
+SsimT1MinusC1_lo,,,jpegxl,1.6769386562255137,1.7,10^-3 SSIM,1.7,match,ssim_model_evaluation.csv,
+SsimT1MinusC1_hi,,,jpegxl,2.283801621387621,2.3,10^-3 SSIM,2.3,match,ssim_model_evaluation.csv,
+LowestSsimDistanceRsqDomain,aerial,50,jpegxl,aerial imagery,aerial imagery,display name,aerial imagery,match,ssim_complexity_r2.csv,
+LowestSsimDistanceRsqUnrounded,aerial,50,jpegxl,-0.0010157767325449374,-0.0010157767325449374,R-squared,,not_present_in_workspace_manuscript,ssim_complexity_r2.csv,The manuscript displays 0.00 and describes no explanatory power; this row preserves the unrounded value.
+ReferenceTableMaxRatioRsqChange,xray,30,jpeg2000,0.03744203710282701,0.037442037102827008,absolute R-squared change,,not_present_in_workspace_manuscript,reviewer_quantizer_fits.csv,Requested audit quantity; no numerical statement found in the supplied workspace manuscript.
+RatioC1SlopeSign,aerial,10,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.8726443256052474; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,aerial,20,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.5887133329469898; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,aerial,30,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.451914035494646; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,aerial,40,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.3543169200645764; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,aerial,50,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2868341863849511; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,aerial,60,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2391259752776642; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,aerial,70,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.1745343490539846; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,aerial,80,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.1200688040759974; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,aerial,90,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.0474323074947118; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,mri,10,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.186085222435574; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,mri,20,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2234387469296581; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,mri,30,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2682565054095374; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,mri,40,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.274922449772417; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,mri,50,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2500694536691701; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,mri,60,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2432135571736684; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,mri,70,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.3043856358776398; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,mri,80,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2418147601393437; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,mri,90,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2166609604514904; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,natural,10,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.4578129504601307; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,natural,20,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.3331605753284599; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,natural,30,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2751346538689339; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,natural,40,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2698416116328342; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,natural,50,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2721694779568002; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,natural,60,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2638755253702199; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,natural,70,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2391706869106585; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,natural,80,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.2507008474838397; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,natural,90,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.1658458012901318; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,xray,10,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.1031384723228455; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,xray,20,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.561621909905651; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,xray,30,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.7707138771248738; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,xray,40,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.838242626693761; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,xray,50,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.7369812229975659; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,xray,60,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.6275784631439871; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,xray,70,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.5938381132528106; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,xray,80,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-1.3047676368929038; no explicit slope-sign statement in workspace manuscript
+RatioC1SlopeSign,xray,90,jpeg2000,negative,negative,sign,,not_present_in_workspace_manuscript,model_parameters.csv,slope=-0.97428795334803342; no explicit slope-sign statement in workspace manuscript
+AllRatioC1SlopesNegative,,,,true,true,boolean,,not_present_in_workspace_manuscript,model_parameters.csv,
+PillowDefaultsMaxFactor,aerial,30,jpeg2000,2.7649200408302144,2.8,ratio,2.7,mismatch,sanity_mct.csv,Maximum of domain-quality mean default bpp / corrected bpp; nearest one-decimal rounding.
+PillowDefaultsIndividualMaxFactor,aerial,50,jpeg2000,3.398494353826851,3.3984943538268508,ratio,,not_present_in_workspace_manuscript,sanity_mct_per_image.csv,Individual-image maximum is a different estimand from the domain-quality means.
+SearchBoundLower,,,jpeg2000,1.5,1.5,parameter,1.5,match,src/codecs.py,
+SearchBoundUpper,,,jpeg2000,1000.0,1000,parameter,1000,match,src/codecs.py,
+SearchBoundLower,,,jpegxl,0.05,0.05,parameter,0.05,match,src/codecs.py,
+SearchBoundUpper,,,jpegxl,25.0,25,parameter,25,match,src/codecs.py,
+JpegQualityLevel,,10,,10,10,quality,10,match,src/codecs.py,
+JpegQualityLevel,,20,,20,20,quality,20,match,src/codecs.py,
+JpegQualityLevel,,30,,30,30,quality,30,match,src/codecs.py,
+JpegQualityLevel,,40,,40,40,quality,40,match,src/codecs.py,
+JpegQualityLevel,,50,,50,50,quality,50,match,src/codecs.py,
+JpegQualityLevel,,60,,60,60,quality,60,match,src/codecs.py,
+JpegQualityLevel,,70,,70,70,quality,70,match,src/codecs.py,
+JpegQualityLevel,,80,,80,80,quality,80,match,src/codecs.py,
+JpegQualityLevel,,90,,90,90,quality,90,match,src/codecs.py,
+CropWidth,,,,256,256,pixels,256,match,data/manifest.csv,
+CropHeight,,,,256,256,pixels,256,match,data/manifest.csv,
+XrayDownsampleFactor,,,,2,2,integer factor,2,match,data/manifest.csv,
+MriSlicesPerSubject,,,,5,5,slices,5,match,data/manifest.csv,
+ImageBitDepth,,,,8,8,bits,8,match,src/codecs.py,
+DctBlockSide,,,,8,8,pixels,8,match,src/features.py,
+ReferenceJpegQuality,,,,50,50,quality,50,match,src/features.py,
+BootstrapReplicates,,,,10000,10000,replicates,10000,match,src/analysis.py,
+ConfidenceLevel,,,,95,95,percent,95,match,src/analysis.py,
+TrainingFraction,,,,80,80,percent,80,match,src/models.py,
+TestFraction,,,,20,20,percent,20,match,src/models.py,
+JxlEffort,,,,7,7,effort,7,match,src/codecs.py,
+NonmonotoneScanPoints,,,,64,64,evaluations,64,match,src/search.py,
+ErrorTailPercentile,,,,90,90,percentile,90,match,src/models.py,
+ResidualPercentile,,,,99,99,percentile,99,match,src/reporting.py,
+UnreachableFigureThreshold,,,,5,5,percent,5,match,src/figures.py,
+ScanPsnrTolerance,,,,0.1,0.1,dB,0.1,match,src/search.py,
+ScanSsimTolerance,,,,0.001,0.001,SSIM,0.001,match,src/search.py,

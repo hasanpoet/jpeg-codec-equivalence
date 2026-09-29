@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "files": 266502,
+  "maximum": {
+    "domain": "xray",
+    "image_id": "MCUCXR_0074_0",
+    "q": 10,
+    "codec": "jpeg2000",
+    "metric": "ssim",
+    "parameter": 1000.0,
+    "encoded_bytes": 264,
+    "header_bytes": 236,
+    "header_pct": 89.39393939393939
+  },
+  "scope": "JPEG targets and retained matched/matched_scan equivalence files for PSNR and SSIM; excludes discarded search trials and model-prediction encodes",
+  "definition": "Container, metadata and codestream/frame headers before compressed image data; JPEG EOI and JPEG 2000 EOC included; JXL frame ToC included",
+  "jpegxl_parser_version": 11001,
+  "jpegxl_parser_reference": "https://libjxl.readthedocs.io/en/latest/api_decoder.html#c.JXL_DEC_FRAME"
+}

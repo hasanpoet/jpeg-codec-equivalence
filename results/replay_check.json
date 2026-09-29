@@ -1,0 +1,31 @@
+{
+  "pairs": 612,
+  "images": 68,
+  "common_columns": 73,
+  "scientific_differences": 0,
+  "execution_counter_differences": 2280,
+  "columns": [
+    {
+      "column": "jpeg2000_psnr_new_encode_calls",
+      "different_rows": 507,
+      "category": "execution_counter"
+    },
+    {
+      "column": "jpeg2000_ssim_new_encode_calls",
+      "different_rows": 609,
+      "category": "execution_counter"
+    },
+    {
+      "column": "jpegxl_psnr_new_encode_calls",
+      "different_rows": 590,
+      "category": "execution_counter"
+    },
+    {
+      "column": "jpegxl_ssim_new_encode_calls",
+      "different_rows": 574,
+      "category": "execution_counter"
+    }
+  ],
+  "comparison": "Exact equality after round-trip CSV parsing; execution counters are reported separately",
+  "seconds": 916.75
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using this code or these results."
+title: "Complexity-Aware Parameter Equivalence Between JPEG, JPEG 2000, and JPEG XL Across Imaging Domains"
+authors:
+  - family-names: Hasan
+    given-names: Mahmud
+  - family-names: El-Sakka
+    given-names: Mahmoud R.
+license: MIT
+type: software

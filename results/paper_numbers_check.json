@@ -1,0 +1,25 @@
+{
+  "status": "mismatches_reported",
+  "mismatches": [
+    {
+      "name": "PillowDefaultsMaxFactor",
+      "domain": "aerial",
+      "q": 30,
+      "codec": "jpeg2000",
+      "value": 2.7649200408302144,
+      "display": "2.8",
+      "unit": "ratio",
+      "manuscript_display": "2.7",
+      "status": "mismatch",
+      "source": "sanity_mct.csv",
+      "note": "Maximum of domain-quality mean default bpp / corrected bpp; nearest one-decimal rounding."
+    }
+  ],
+  "not_present_in_workspace_manuscript": [
+    "AllRatioC1SlopesNegative",
+    "LowestSsimDistanceRsqUnrounded",
+    "PillowDefaultsIndividualMaxFactor",
+    "RatioC1SlopeSign",
+    "ReferenceTableMaxRatioRsqChange"
+  ]
+}

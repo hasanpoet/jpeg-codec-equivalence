@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "width_inches": 3.5,
+  "height_inches": 1.9,
+  "dpi": 300,
+  "font": "8 pt DejaVu Sans",
+  "colours": {
+    "natural": "#0072B2",
+    "xray": "#D55E00",
+    "mri": "#009E73",
+    "aerial": "#CC79A7"
+  },
+  "markers": {
+    "natural": "o",
+    "xray": "s",
+    "mri": "^",
+    "aerial": "D"
+  },
+  "figures": [
+    "fig1_equivalence",
+    "fig2_rate",
+    "fig3_complexity"
+  ],
+  "png_dimensions": [
+    1050,
+    570
+  ]
+}

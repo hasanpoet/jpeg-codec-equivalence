@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "images": 20,
+  "images_per_domain": {
+    "aerial": 5,
+    "mri": 5,
+    "natural": 5,
+    "xray": 5
+  },
+  "train_groups": 12,
+  "test_groups": 8,
+  "pairs": 180,
+  "search_targets": 720,
+  "psnr_model_rows": 840,
+  "ssim_model_rows": 278,
+  "header_records": 880,
+  "reference_fit_rows": 16,
+  "stage_names": [
+    "crop reconstruction",
+    "search",
+    "PSNR model evaluation",
+    "SSIM model evaluation",
+    "header parsing",
+    "reference-table robustness",
+    "payload",
+    "artifact regeneration"
+  ],
+  "crop_hashes_match": true
+}

@@ -1,0 +1,37 @@
+{
+  "tex": {
+    "table1_body.tex": {
+      "exact_bytes": true,
+      "sha256": "f21871ae09a5bd692b1403115f2b6e00b2f9ed3221cab136d5511245ec752e84"
+    },
+    "table2_body.tex": {
+      "exact_bytes": true,
+      "sha256": "9e7f8d30ff67f44d599dda62a414dc2e4aeaf9144e794daa40bca6b3a66e8668"
+    },
+    "table3_body.tex": {
+      "exact_bytes": true,
+      "sha256": "010cf664a85081e9d17f31d1b6f4de60ffbc11c35e3704ad3dcc25bbcf1e136d"
+    },
+    "values.tex": {
+      "exact_bytes": true,
+      "sha256": "5f8d874b016e425def1b142195f25ded2a35f8abc86a437ab9e5948c20748991"
+    }
+  },
+  "figures": {
+    "fig1_equivalence": {
+      "same_shape": true,
+      "identical_rendered_pixels": true,
+      "different_pixels": 0
+    },
+    "fig2_rate": {
+      "same_shape": true,
+      "identical_rendered_pixels": true,
+      "different_pixels": 0
+    },
+    "fig3_complexity": {
+      "same_shape": true,
+      "identical_rendered_pixels": true,
+      "different_pixels": 0
+    }
+  }
+}

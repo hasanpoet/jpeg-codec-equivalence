@@ -1,0 +1,8 @@
+.venv/
+.verification/
+__pycache__/
+*.pyc
+data/crops/
+data/downloads/
+results/checkpoints/
+data/sanity_crops/
