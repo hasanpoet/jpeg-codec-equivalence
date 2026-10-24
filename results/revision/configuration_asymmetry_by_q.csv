@@ -1,0 +1,31 @@
+comparison,q,metric,jpeg2000_config,jpegxl_config,n_domains,jpeg2000_max_min,jpegxl_max_min,jpeg2000_more_domain_dispersion
+selected,10,psnr,baseline,baseline,4,5.6247180738973555,1.9975021976044143,True
+selected J2K / JXL effort 3,10,psnr,baseline,effort3,4,5.6247180738973555,1.622548186989746,True
+selected J2K / JXL effort 9,10,psnr,baseline,effort9,4,5.6247180738973555,2.20194201124548,True
+J2K default transforms / selected JXL,10,psnr,pillow_transforms,baseline,4,5.589002197440912,1.9975021976044143,True
+JPEG 4:4:4 reference,10,psnr,jpeg444,jpeg444,2,1.2840378736925189,1.0645357702712828,True
+selected,10,ssim,baseline,baseline,4,7.604846123360199,1.6868558689374482,True
+selected J2K / JXL effort 3,10,ssim,baseline,effort3,4,7.604846123360199,1.5999514251730313,True
+selected J2K / JXL effort 9,10,ssim,baseline,effort9,4,7.604846123360199,2.270655269938806,True
+J2K default transforms / selected JXL,10,ssim,pillow_transforms,baseline,4,7.547184957968615,1.6868558689374482,True
+JPEG 4:4:4 reference,10,ssim,jpeg444,jpeg444,2,1.3057481028296678,1.0574927508333236,True
+selected,50,psnr,baseline,baseline,4,3.341969358959304,1.2598561121293543,True
+selected J2K / JXL effort 3,50,psnr,baseline,effort3,4,3.341969358959304,1.6511019997696277,True
+selected J2K / JXL effort 9,50,psnr,baseline,effort9,4,3.341969358959304,1.304142163040534,True
+J2K default transforms / selected JXL,50,psnr,pillow_transforms,baseline,4,2.3417198260948973,1.2598561121293543,True
+JPEG 4:4:4 reference,50,psnr,jpeg444,jpeg444,2,1.0292329532201665,1.079634490003764,False
+selected,50,ssim,baseline,baseline,4,3.5329854232208655,1.1239648857545994,True
+selected J2K / JXL effort 3,50,ssim,baseline,effort3,4,3.5329854232208655,1.627464263544499,True
+selected J2K / JXL effort 9,50,ssim,baseline,effort9,4,3.5329854232208655,1.1300332892474982,True
+J2K default transforms / selected JXL,50,ssim,pillow_transforms,baseline,4,2.9624395273420796,1.1239648857545994,True
+JPEG 4:4:4 reference,50,ssim,jpeg444,jpeg444,2,1.1518240935553414,1.034143991362476,True
+selected,90,psnr,baseline,baseline,4,3.1236757584785884,1.1942495932806616,True
+selected J2K / JXL effort 3,90,psnr,baseline,effort3,4,3.1236757584785884,1.9989421894279908,True
+selected J2K / JXL effort 9,90,psnr,baseline,effort9,4,3.1236757584785884,1.2675450957308256,True
+J2K default transforms / selected JXL,90,psnr,pillow_transforms,baseline,4,1.4361473070816937,1.1942495932806616,True
+JPEG 4:4:4 reference,90,psnr,jpeg444,jpeg444,2,1.0323837222700845,1.0903035164664017,False
+selected,90,ssim,baseline,baseline,4,2.86957184517595,1.3180349795218995,True
+selected J2K / JXL effort 3,90,ssim,baseline,effort3,4,2.86957184517595,1.8769802880464435,True
+selected J2K / JXL effort 9,90,ssim,baseline,effort9,4,2.86957184517595,1.362741116712887,True
+J2K default transforms / selected JXL,90,ssim,pillow_transforms,baseline,4,1.7935378693438901,1.3180349795218995,True
+JPEG 4:4:4 reference,90,ssim,jpeg444,jpeg444,2,1.0827233603795094,1.0686214616964507,True

@@ -1,0 +1,70 @@
+{
+  "selection_rule": "middle slice by canonical slice index; lower-middle for even group size; lexicographic image_id breaks ties",
+  "subjects": 40,
+  "same_subject_groups_as_initial_subset": true,
+  "pixel_hashes_verified": true,
+  "entropy_ratio_distribution": {
+    "count": 40.0,
+    "mean": 1.1321982583563766,
+    "std": 0.03237137297482225,
+    "min": 1.0605971950651,
+    "25%": 1.1113130882225994,
+    "50%": 1.1325071041993096,
+    "75%": 1.1446181393493444,
+    "max": 1.2148429574619206
+  },
+  "entropy_ratio_median": 1.133,
+  "entropy_ratio_median_acceptable_0_9_to_1_1": false,
+  "q50_medians": {
+    "jpeg2000_psnr": {
+      "subset_median": 9.826014020532543,
+      "full_dataset_median": 12.349671943554172,
+      "relative_difference": -0.2043501993054022,
+      "within_25_percent": true,
+      "n_subset": 40,
+      "n_full": 2905
+    },
+    "jpeg2000_ssim": {
+      "subset_median": 7.621991222319221,
+      "full_dataset_median": 9.105099559229837,
+      "relative_difference": -0.16288765732464605,
+      "within_25_percent": true,
+      "n_subset": 40,
+      "n_full": 2904
+    },
+    "jpegxl_psnr": {
+      "subset_median": 3.1772081476088094,
+      "full_dataset_median": 3.11337588712396,
+      "relative_difference": 0.020502587159116015,
+      "within_25_percent": true,
+      "n_subset": 40,
+      "n_full": 2905
+    },
+    "jpegxl_ssim": {
+      "subset_median": 3.115701718072165,
+      "full_dataset_median": 3.099236890412143,
+      "relative_difference": 0.005312542487784011,
+      "within_25_percent": true,
+      "n_subset": 40,
+      "n_full": 2905
+    }
+  },
+  "decision": "accepted_with_disclosed_deviation",
+  "experiments_launched": false,
+  "entropy_ratio_iqr": [
+    1.111,
+    1.145
+  ],
+  "entropy_ratio_threshold_deviation_disclosed": true,
+  "settings_check_passed": true,
+  "status": "accepted with disclosed deviation",
+  "accepted_deviation": "Median entropy ratio 1.133 (IQR 1.111-1.145) is mildly high; accepted because q=50 MRI equivalent settings are within 21% (JPEG 2000) and 3% (JPEG XL) of full-dataset MRI medians.",
+  "q50_mri_settings_check": {
+    "jpeg2000_psnr_subset_median": 9.826014020532545,
+    "jpeg2000_psnr_full_median": 12.349671943554172,
+    "jpeg2000_relative_difference": -0.2043501993054022,
+    "jpegxl_psnr_subset_median": 3.1772081476088094,
+    "jpegxl_psnr_full_median": 3.11337588712396,
+    "jpegxl_relative_difference": 0.020502587159116015
+  }
+}

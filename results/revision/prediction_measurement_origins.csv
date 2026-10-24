@@ -1,0 +1,12 @@
+domain,measurement_origin,rows
+aerial,fresh_encode,876
+aerial,frozen_full_dataset_search,466
+aerial,reused_exact_prediction_parameter,988
+mri,fresh_encode,1920
+mri,frozen_full_dataset_search,480
+natural,fresh_encode,894
+natural,frozen_full_dataset_search,475
+natural,reused_exact_prediction_parameter,1006
+xray,fresh_encode,740
+xray,frozen_full_dataset_search,398
+xray,reused_exact_prediction_parameter,852

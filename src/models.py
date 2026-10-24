@@ -1,6 +1,6 @@
 """Train-only letter predictors and explicit held-out re-encoding."""
 
-from .features import complexity
+from .features import Q50, complexity
 from .config import WORKERS, crop_path
 
 

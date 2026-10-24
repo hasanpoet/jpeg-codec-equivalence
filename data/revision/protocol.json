@@ -1,0 +1,78 @@
+{
+  "version": "reviewer-revision-2-middle-mri",
+  "configurations": {
+    "baseline": {
+      "effort": 7,
+      "subsampling": 2,
+      "irreversible": true,
+      "color_transform": true
+    },
+    "effort3": {
+      "effort": 3,
+      "subsampling": 2,
+      "irreversible": true,
+      "color_transform": true
+    },
+    "effort9": {
+      "effort": 9,
+      "subsampling": 2,
+      "irreversible": true,
+      "color_transform": true
+    },
+    "pillow_transforms": {
+      "effort": 7,
+      "subsampling": 2,
+      "irreversible": false,
+      "color_transform": false
+    },
+    "jpeg444": {
+      "effort": 7,
+      "subsampling": 0,
+      "irreversible": true,
+      "color_transform": true
+    }
+  },
+  "qualities": [
+    10,
+    50,
+    90
+  ],
+  "groups_per_domain": 40,
+  "selection_seed": 0,
+  "prediction_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "coefficient_bootstraps": 1000,
+  "error_bootstraps": 10000,
+  "bounds": {
+    "jpeg2000": [
+      1.5,
+      1000.0
+    ],
+    "jpegxl": [
+      0.05,
+      25.0
+    ]
+  },
+  "search": "src.search.match: unchanged bisection and 64-point nonmonotone fallback",
+  "selection_rule": "40 seed-0 quartile-stratified groups/domain; MRI uses lower-middle retained slice by canonical slice index; other domains use lexicographically first image; pixel hashes stored in subset manifest",
+  "size_complexity": "Complete native 8x8 blocks; discard incomplete edge blocks, no padding",
+  "versions": {
+    "Pillow": "12.2.0",
+    "Libjpeg": "8.0",
+    "LibjpegTurbo": "3.1.4.1",
+    "Openjpeg": "2.5.4",
+    "Libjxl": "libjxl 0.11.2",
+    "Imagecodecs": "2026.3.6"
+  },
+  "implementation_hashes": {
+    "revision.py": "d4f68fa3f494f07155b6f37402830e76539a57551178750802ba45fdc666d41f",
+    "rerun_core.py": "d79944a3c1cb33de3bbf3b21e5904b5b999b2c2197702fa9396612bdd086e4d6",
+    "letter_search.py": "28cc5eb645b898960feb18d2b5c4859a25fe7bcf3bfd13803f36dd7e60b3e96c",
+    "letter_headers.py": "618d8545c5b79e5d86d679c1be4f1eab6deef9df6b35f78c344ab8033ed12aa6"
+  }
+}

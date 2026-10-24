@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "baseline_files_unchanged": 57,
+  "configuration_rows": 5760,
+  "size_rows": 1920,
+  "prediction_rows": 9095,
+  "input_hashes": {
+    "subset.csv": "719b834a86fa9cde6e5a96546586c82d152436db8c8667be950d8e16d686ed31",
+    "protocol.json": "88968f3b5e1f7a53efe704d963b0188a53ceca577438c24711dd576b021839b4",
+    "size_manifest.csv": "7829928d07eae82f64619a33870850ae9914487702763738c7de65b8eb51144a",
+    "prediction_splits.csv": "27fd725f4d68a6153db3850a0b99f5e2993e072b937ec09afe68e5b23bb959b8",
+    "prediction_coefficients.csv": "107ffbcf5378cf66297ae0ad8ff00660b9617155fed5132b963d27f687e56c84"
+  }
+}

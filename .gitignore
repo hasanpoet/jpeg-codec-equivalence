@@ -6,3 +6,11 @@ data/crops/
 data/downloads/
 results/checkpoints/
 data/sanity_crops/
+data/revision_crops/
+results/revision/checkpoints/
+results/revision/*_progress.json
+results/revision/*_failure.json
+results/revision/status.json
+results/revision/audit.json
+results/revision/baseline_hashes.json
+results/revision/baseline_*_audit.csv

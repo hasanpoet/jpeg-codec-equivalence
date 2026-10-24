@@ -1,0 +1,6 @@
+{
+  "reason": "No exact original X-ray crop is nested in a fully covered 512 crop (509/509 excluded)",
+  "authorization": "User explicitly selected new nested 256/512 pairs from eligible patients, preserving lung-mask coverage",
+  "natural": "Exact original 256 crops versus full native source",
+  "xray": "New central 256 crops nested in fully lung-covered 512 crops from same patient"
+}

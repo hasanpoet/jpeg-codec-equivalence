@@ -1,0 +1,11 @@
+{
+  "protocol_version": "reviewer-revision-2-middle-mri",
+  "subset_q50_psnr_jpeg2000_max_min": 3.341969358959304,
+  "subset_q50_psnr_jpegxl_max_min": 1.2598561121293543,
+  "full_dataset_q50_psnr": {
+    "jpeg2000": 2.625269867009323,
+    "jpegxl": 1.2766958421851926
+  },
+  "asymmetry_holds": true,
+  "q50_gate": "pass"
+}

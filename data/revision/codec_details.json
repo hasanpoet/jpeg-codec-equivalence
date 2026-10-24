@@ -1,0 +1,61 @@
+{
+  "runtime_versions": {
+    "Pillow": "12.2.0",
+    "Libjpeg": "8.0",
+    "LibjpegTurbo": "3.1.4.1",
+    "Openjpeg": "2.5.4",
+    "Libjxl": "libjxl 0.11.2",
+    "Imagecodecs": "2026.3.6",
+    "header_decoder_version": 11001
+  },
+  "input": {
+    "dtype": "uint8",
+    "channels": "L or RGB; replicated grayscale channels collapsed",
+    "range": [
+      0,
+      255
+    ]
+  },
+  "jpeg": {
+    "container": "JPEG file",
+    "quality": [
+      10,
+      50,
+      90
+    ],
+    "progressive": false,
+    "optimize": false,
+    "subsampling": "2 (4:2:0), alternative 0 (4:4:4); grayscale has no chroma",
+    "color_conversion": "Pillow/libjpeg-turbo version-specific RGB to YCbCr"
+  },
+  "jpeg2000": {
+    "container": "JP2",
+    "quality_mode": "rates",
+    "quality_layers": "one ratio per search",
+    "tile_size": "full image",
+    "irreversible": "true; transform-default alternative false",
+    "mct": "1 for RGB, 0 for grayscale; alternative always 0",
+    "progression": "Pillow default LRCP",
+    "cinema_mode": "Pillow default no",
+    "signed": false,
+    "plt": false,
+    "num_resolutions": "Pillow forwards 0: OpenJPEG default",
+    "codeblock_size": "Pillow None: OpenJPEG default",
+    "precinct_size": "Pillow None: OpenJPEG default"
+  },
+  "jpegxl": {
+    "distance": "positive lossy control; bounds 0.05 to 25",
+    "effort": [
+      3,
+      7,
+      9
+    ],
+    "numthreads": 1,
+    "other_parameters": "imagecodecs 2026.3.6 defaults: level, lossless, decodingspeed, photometric, bitspersample, planar, usecontainer are None"
+  },
+  "metrics": {
+    "psnr": "all-channel MSE, peak=255",
+    "ssim": "Pillow YCbCr luma or L; skimage structural_similarity default window 7, data_range=255"
+  },
+  "scope": "Declared explicit settings plus version-pinned wrapper defaults; no equal-runtime claim"
+}
